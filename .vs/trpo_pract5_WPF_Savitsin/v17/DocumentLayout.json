@@ -1,0 +1,163 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\st310-02\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D \u041F\u0420-31\\trpo_pract5_WPF_Savitsin\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{66E3C6D3-45E2-4988-87D8-08DEDC0D798D}|trpo_pract5_WPF_Savitsin.csproj|c:\\users\\st310-02\\desktop\\\u0441\u0430\u0432\u0438\u0446\u0438\u043D \u043F\u0440-31\\trpo_pract5_wpf_savitsin\\listpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66E3C6D3-45E2-4988-87D8-08DEDC0D798D}|trpo_pract5_WPF_Savitsin.csproj|solutionrelative:listpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66E3C6D3-45E2-4988-87D8-08DEDC0D798D}|trpo_pract5_WPF_Savitsin.csproj|c:\\users\\st310-02\\desktop\\\u0441\u0430\u0432\u0438\u0446\u0438\u043D \u043F\u0440-31\\trpo_pract5_wpf_savitsin\\package.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66E3C6D3-45E2-4988-87D8-08DEDC0D798D}|trpo_pract5_WPF_Savitsin.csproj|solutionrelative:package.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66E3C6D3-45E2-4988-87D8-08DEDC0D798D}|trpo_pract5_WPF_Savitsin.csproj|c:\\users\\st310-02\\desktop\\\u0441\u0430\u0432\u0438\u0446\u0438\u043D \u043F\u0440-31\\trpo_pract5_wpf_savitsin\\attachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66E3C6D3-45E2-4988-87D8-08DEDC0D798D}|trpo_pract5_WPF_Savitsin.csproj|solutionrelative:attachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66E3C6D3-45E2-4988-87D8-08DEDC0D798D}|trpo_pract5_WPF_Savitsin.csproj|c:\\users\\st310-02\\desktop\\\u0441\u0430\u0432\u0438\u0446\u0438\u043D \u043F\u0440-31\\trpo_pract5_wpf_savitsin\\listpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{66E3C6D3-45E2-4988-87D8-08DEDC0D798D}|trpo_pract5_WPF_Savitsin.csproj|solutionrelative:listpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66E3C6D3-45E2-4988-87D8-08DEDC0D798D}|trpo_pract5_WPF_Savitsin.csproj|c:\\users\\st310-02\\desktop\\\u0441\u0430\u0432\u0438\u0446\u0438\u043D \u043F\u0440-31\\trpo_pract5_wpf_savitsin\\packageformpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{66E3C6D3-45E2-4988-87D8-08DEDC0D798D}|trpo_pract5_WPF_Savitsin.csproj|solutionrelative:packageformpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66E3C6D3-45E2-4988-87D8-08DEDC0D798D}|trpo_pract5_WPF_Savitsin.csproj|c:\\users\\st310-02\\desktop\\\u0441\u0430\u0432\u0438\u0446\u0438\u043D \u043F\u0440-31\\trpo_pract5_wpf_savitsin\\packageformpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66E3C6D3-45E2-4988-87D8-08DEDC0D798D}|trpo_pract5_WPF_Savitsin.csproj|solutionrelative:packageformpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66E3C6D3-45E2-4988-87D8-08DEDC0D798D}|trpo_pract5_WPF_Savitsin.csproj|c:\\users\\st310-02\\desktop\\\u0441\u0430\u0432\u0438\u0446\u0438\u043D \u043F\u0440-31\\trpo_pract5_wpf_savitsin\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{66E3C6D3-45E2-4988-87D8-08DEDC0D798D}|trpo_pract5_WPF_Savitsin.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66E3C6D3-45E2-4988-87D8-08DEDC0D798D}|trpo_pract5_WPF_Savitsin.csproj|c:\\users\\st310-02\\desktop\\\u0441\u0430\u0432\u0438\u0446\u0438\u043D \u043F\u0440-31\\trpo_pract5_wpf_savitsin\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66E3C6D3-45E2-4988-87D8-08DEDC0D798D}|trpo_pract5_WPF_Savitsin.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 321,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ListPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\st310-02\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D \u041F\u0420-31\\trpo_pract5_WPF_Savitsin\\ListPage.xaml.cs",
+              "RelativeDocumentMoniker": "ListPage.xaml.cs",
+              "ToolTip": "C:\\Users\\st310-02\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D \u041F\u0420-31\\trpo_pract5_WPF_Savitsin\\ListPage.xaml.cs",
+              "RelativeToolTip": "ListPage.xaml.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T10:09:09.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Attachment.cs",
+              "DocumentMoniker": "C:\\Users\\st310-02\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D \u041F\u0420-31\\trpo_pract5_WPF_Savitsin\\Attachment.cs",
+              "RelativeDocumentMoniker": "Attachment.cs",
+              "ToolTip": "C:\\Users\\st310-02\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D \u041F\u0420-31\\trpo_pract5_WPF_Savitsin\\Attachment.cs",
+              "RelativeToolTip": "Attachment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T09:50:41.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PackageFormPage.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-02\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D \u041F\u0420-31\\trpo_pract5_WPF_Savitsin\\PackageFormPage.xaml",
+              "RelativeDocumentMoniker": "PackageFormPage.xaml",
+              "ToolTip": "C:\\Users\\st310-02\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D \u041F\u0420-31\\trpo_pract5_WPF_Savitsin\\PackageFormPage.xaml",
+              "RelativeToolTip": "PackageFormPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-23T10:28:59.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Package.cs",
+              "DocumentMoniker": "C:\\Users\\st310-02\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D \u041F\u0420-31\\trpo_pract5_WPF_Savitsin\\Package.cs",
+              "RelativeDocumentMoniker": "Package.cs",
+              "ToolTip": "C:\\Users\\st310-02\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D \u041F\u0420-31\\trpo_pract5_WPF_Savitsin\\Package.cs",
+              "RelativeToolTip": "Package.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T09:49:45.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ListPage.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-02\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D \u041F\u0420-31\\trpo_pract5_WPF_Savitsin\\ListPage.xaml",
+              "RelativeDocumentMoniker": "ListPage.xaml",
+              "ToolTip": "C:\\Users\\st310-02\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D \u041F\u0420-31\\trpo_pract5_WPF_Savitsin\\ListPage.xaml",
+              "RelativeToolTip": "ListPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-23T09:59:18.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PackageFormPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\st310-02\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D \u041F\u0420-31\\trpo_pract5_WPF_Savitsin\\PackageFormPage.xaml.cs",
+              "RelativeDocumentMoniker": "PackageFormPage.xaml.cs",
+              "ToolTip": "C:\\Users\\st310-02\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D \u041F\u0420-31\\trpo_pract5_WPF_Savitsin\\PackageFormPage.xaml.cs",
+              "RelativeToolTip": "PackageFormPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T10:29:03.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-02\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D \u041F\u0420-31\\trpo_pract5_WPF_Savitsin\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\st310-02\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D \u041F\u0420-31\\trpo_pract5_WPF_Savitsin\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-23T09:41:51.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\st310-02\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D \u041F\u0420-31\\trpo_pract5_WPF_Savitsin\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\st310-02\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D \u041F\u0420-31\\trpo_pract5_WPF_Savitsin\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T09:41:49.977Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 191,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

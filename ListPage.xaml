@@ -1,0 +1,94 @@
+﻿<Page x:Class="trpo_pract5_WPF_Savitsin.ListPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:trpo_pract5_WPF_Savitsin"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="ListPage">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal">
+            <Button x:Name="AddButton" Margin="5" Padding="5" Click="AddButton_Click">Добавить</Button>
+            <Button x:Name="DeleteItem" Margin="5" Padding="5" Click="DeleteItem_Click">Удалить</Button>
+            <Button x:Name="SaveButton" Margin="5" Padding="5" Click="SaveButton_Click">Сохранить</Button>
+            <Button x:Name="LoadButton" Margin="5" Padding="5" Click="LoadButton_Click">Загрузить</Button>
+        </StackPanel>
+
+        <ListView 
+            Grid.Row="1" 
+            ItemsSource="{Binding Packages}" 
+            SelectedItem="{Binding SelectedPackage}"
+            MouseDoubleClick="EditItem_Click">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Идентификатор: "/>
+                            <TextBlock Text="{Binding Id}"/>
+                        </StackPanel>
+                        
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Получатель: "/>
+                            <TextBlock Text="{Binding Recipient}"/>
+                        </StackPanel>
+                        
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Адрес: "/>
+                            <TextBlock Text="{Binding Address}"/>
+                        </StackPanel>
+                        
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Дата отправки: "/>
+                            <TextBlock Text="{Binding SendDate}"/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Вес посылки: "/>
+                            <TextBlock Text="{Binding PackageWeightKg}"/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Название вложения: "/>
+                            <TextBlock Text="{Binding Name}"/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Масса единицы, кг: "/>
+                            <TextBlock Text="{Binding UnitWeightKg}"/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Количество: "/>
+                            <TextBlock Text="{Binding Count}"/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Общая масса данного вложения: "/>
+                            <TextBlock Text="{Binding ItemWeightKg}"/>
+                        </StackPanel>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <StackPanel Orientation="Horizontal"
+                    Grid.Row="2"
+                    Grid.ColumnSpan="2"
+                    Background="AntiqueWhite">
+            <Label>Всего в списке:</Label>
+            <Label Content="{Binding Packages.Count}"/>
+        </StackPanel>
+    </Grid>
+</Page>
