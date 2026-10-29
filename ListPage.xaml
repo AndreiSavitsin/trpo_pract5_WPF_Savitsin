@@ -59,25 +59,6 @@
                             <TextBlock Text="{Binding PackageWeightKg}"/>
                         </StackPanel>
 
-                        <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="Название вложения: "/>
-                            <TextBlock Text="{Binding Name}"/>
-                        </StackPanel>
-
-                        <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="Масса единицы, кг: "/>
-                            <TextBlock Text="{Binding UnitWeightKg}"/>
-                        </StackPanel>
-
-                        <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="Количество: "/>
-                            <TextBlock Text="{Binding Count}"/>
-                        </StackPanel>
-
-                        <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="Общая масса данного вложения: "/>
-                            <TextBlock Text="{Binding ItemWeightKg}"/>
-                        </StackPanel>
                     </StackPanel>
                 </DataTemplate>
             </ListView.ItemTemplate>

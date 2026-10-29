@@ -20,7 +20,7 @@ namespace trpo_pract5_WPF_Savitsin
             get { return name; }
             set
             {
-                name = value;
+                name = value;                
                 OnPropertyChanged();
             }
         }
@@ -32,6 +32,7 @@ namespace trpo_pract5_WPF_Savitsin
             {
                 unitWeightKg = value;
                 OnPropertyChanged();
+                OnPropertyChanged(nameof(ItemWeightKg));
             }
         }
 
@@ -42,16 +43,12 @@ namespace trpo_pract5_WPF_Savitsin
             {
                 count = value;
                 OnPropertyChanged();
+                OnPropertyChanged(nameof(ItemWeightKg));
             }
         }
         public double ItemWeightKg
         {
-            get { return itemWeightKg; }
-            set
-            {
-                itemWeightKg = value;
-                OnPropertyChanged();
-            }
+            get { return unitWeightKg * count; }
         }
 
         public event PropertyChangedEventHandler? PropertyChanged;

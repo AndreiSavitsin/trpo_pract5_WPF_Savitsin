@@ -22,3 +22,28 @@ C:\Users\st310-02\Desktop\Савицин ПР-31\trpo_pract5_WPF_Savitsin\obj\De
 C:\Users\st310-02\Desktop\Савицин ПР-31\trpo_pract5_WPF_Savitsin\obj\Debug\net8.0-windows\ref\trpo_pract5_WPF_Savitsin.dll
 C:\Users\st310-02\Desktop\Савицин ПР-31\trpo_pract5_WPF_Savitsin\obj\Debug\net8.0-windows\PackageFormPage.g.cs
 C:\Users\st310-02\Desktop\Савицин ПР-31\trpo_pract5_WPF_Savitsin\obj\Debug\net8.0-windows\PackageFormPage.baml
+C:\Program Files (x86)\projects\trpo_pract5_WPF_Savitsin\trpo_pract5_WPF_Savitsin\obj\Debug\net8.0-windows\ListPage.g.cs
+C:\Program Files (x86)\projects\trpo_pract5_WPF_Savitsin\trpo_pract5_WPF_Savitsin\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Program Files (x86)\projects\trpo_pract5_WPF_Savitsin\trpo_pract5_WPF_Savitsin\obj\Debug\net8.0-windows\PackageFormPage.g.cs
+C:\Program Files (x86)\projects\trpo_pract5_WPF_Savitsin\trpo_pract5_WPF_Savitsin\obj\Debug\net8.0-windows\App.g.cs
+C:\Program Files (x86)\projects\trpo_pract5_WPF_Savitsin\trpo_pract5_WPF_Savitsin\obj\Debug\net8.0-windows\trpo_pract5_WPF_Savitsin_MarkupCompile.cache
+C:\Program Files (x86)\projects\trpo_pract5_WPF_Savitsin\trpo_pract5_WPF_Savitsin\obj\Debug\net8.0-windows\trpo_pract5_WPF_Savitsin_MarkupCompile.lref
+C:\Program Files (x86)\projects\trpo_pract5_WPF_Savitsin\trpo_pract5_WPF_Savitsin\obj\Debug\net8.0-windows\trpo_pract5_WPF_Savitsin.dll
+C:\Program Files (x86)\projects\trpo_pract5_WPF_Savitsin\trpo_pract5_WPF_Savitsin\obj\Debug\net8.0-windows\refint\trpo_pract5_WPF_Savitsin.dll
+C:\Program Files (x86)\projects\trpo_pract5_WPF_Savitsin\trpo_pract5_WPF_Savitsin\obj\Debug\net8.0-windows\trpo_pract5_WPF_Savitsin.pdb
+C:\Program Files (x86)\projects\trpo_pract5_WPF_Savitsin\trpo_pract5_WPF_Savitsin\bin\Debug\net8.0-windows\trpo_pract5_WPF_Savitsin.exe
+C:\Program Files (x86)\projects\trpo_pract5_WPF_Savitsin\trpo_pract5_WPF_Savitsin\bin\Debug\net8.0-windows\trpo_pract5_WPF_Savitsin.deps.json
+C:\Program Files (x86)\projects\trpo_pract5_WPF_Savitsin\trpo_pract5_WPF_Savitsin\bin\Debug\net8.0-windows\trpo_pract5_WPF_Savitsin.runtimeconfig.json
+C:\Program Files (x86)\projects\trpo_pract5_WPF_Savitsin\trpo_pract5_WPF_Savitsin\bin\Debug\net8.0-windows\trpo_pract5_WPF_Savitsin.dll
+C:\Program Files (x86)\projects\trpo_pract5_WPF_Savitsin\trpo_pract5_WPF_Savitsin\bin\Debug\net8.0-windows\trpo_pract5_WPF_Savitsin.pdb
+C:\Program Files (x86)\projects\trpo_pract5_WPF_Savitsin\trpo_pract5_WPF_Savitsin\obj\Debug\net8.0-windows\ListPage.baml
+C:\Program Files (x86)\projects\trpo_pract5_WPF_Savitsin\trpo_pract5_WPF_Savitsin\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Program Files (x86)\projects\trpo_pract5_WPF_Savitsin\trpo_pract5_WPF_Savitsin\obj\Debug\net8.0-windows\PackageFormPage.baml
+C:\Program Files (x86)\projects\trpo_pract5_WPF_Savitsin\trpo_pract5_WPF_Savitsin\obj\Debug\net8.0-windows\trpo_pract5_WPF_Savitsin.g.resources
+C:\Program Files (x86)\projects\trpo_pract5_WPF_Savitsin\trpo_pract5_WPF_Savitsin\obj\Debug\net8.0-windows\trpo_pract5_WPF_Savitsin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Program Files (x86)\projects\trpo_pract5_WPF_Savitsin\trpo_pract5_WPF_Savitsin\obj\Debug\net8.0-windows\trpo_pract5_WPF_Savitsin.AssemblyInfoInputs.cache
+C:\Program Files (x86)\projects\trpo_pract5_WPF_Savitsin\trpo_pract5_WPF_Savitsin\obj\Debug\net8.0-windows\trpo_pract5_WPF_Savitsin.AssemblyInfo.cs
+C:\Program Files (x86)\projects\trpo_pract5_WPF_Savitsin\trpo_pract5_WPF_Savitsin\obj\Debug\net8.0-windows\trpo_pract5_WPF_Savitsin.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\projects\trpo_pract5_WPF_Savitsin\trpo_pract5_WPF_Savitsin\obj\Debug\net8.0-windows\trpo_pract5_WPF_Savitsin.sourcelink.json
+C:\Program Files (x86)\projects\trpo_pract5_WPF_Savitsin\trpo_pract5_WPF_Savitsin\obj\Debug\net8.0-windows\trpo_pract5_WPF_Savitsin.genruntimeconfig.cache
+C:\Program Files (x86)\projects\trpo_pract5_WPF_Savitsin\trpo_pract5_WPF_Savitsin\obj\Debug\net8.0-windows\ref\trpo_pract5_WPF_Savitsin.dll

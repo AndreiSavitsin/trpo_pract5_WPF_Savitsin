@@ -30,25 +30,23 @@ namespace trpo_pract5_WPF_Savitsin
 
         public ListPage()
         {
-            Packages.Add(new Package() { Id = 1, Recipient = "Иван", Address = "Екатеринбург",
-                SendDate = DateTime.Now, PackageWeightKg = 2,
-                Name = "Название вложения", UnitWeightKg = 1, Count = 2, ItemWeightKg = 2 });
+            //Packages.Add(new Package() { Id = 1, Recipient = "Иван", Address = "Екатеринбург",
+            //    SendDate = DateTime.Now, Items = { new Attachment { Name = "Книга", UnitWeightKg = 1, Count = 2 } } });
 
-            Packages.Add(new Package() { Id = 2, Recipient = "Андрей", Address = "Москва",
-                SendDate = DateTime.Now, PackageWeightKg = 5,
-                Name = "Название вложения", UnitWeightKg = 1, Count = 2, ItemWeightKg = 2 });
+            //Packages.Add(new Package() { Id = 2, Recipient = "Андрей", Address = "Москва",
+            //    SendDate = DateTime.Now, Items = { new Attachment { Name = "Телефон", UnitWeightKg = 1, Count = 1 } } });
 
-            Packages.Add(new Package() { Id = 3, Recipient = "Дмитрий", Address = "Калининград",
-                SendDate = DateTime.Now, PackageWeightKg = 1,
-                Name = "Название вложения", UnitWeightKg = 1, Count = 2, ItemWeightKg = 2 });
+            //Packages.Add(new Package() { Id = 3, Recipient = "Дмитрий", Address = "Калининград",
+            //    SendDate = DateTime.Now, Items = { new Attachment { Name = "Наушники", UnitWeightKg = 1, Count = 1 } }
+            //});
 
-            Packages.Add(new Package() { Id = 4, Recipient = "Данил", Address = "Санкт-Петербург",
-                SendDate = DateTime.Now, PackageWeightKg = 4,
-                Name = "Название вложения", UnitWeightKg = 1, Count = 2, ItemWeightKg = 2});
+            //Packages.Add(new Package() { Id = 4, Recipient = "Данил", Address = "Санкт-Петербург",
+            //    SendDate = DateTime.Now, Items = { new Attachment { Name = "Часы", UnitWeightKg = 2, Count = 1 } }
+            //});
 
-            Packages.Add(new Package() { Id = 5, Recipient = "Александр", Address = "Новосибирск",
-                SendDate = DateTime.Now, PackageWeightKg = 3,
-                Name = "Название вложения", UnitWeightKg = 1, Count = 2, ItemWeightKg = 2 });
+            //Packages.Add(new Package() { Id = 5, Recipient = "Александр", Address = "Новосибирск",
+            //    SendDate = DateTime.Now, Items = { new Attachment { Name = "Журнал", UnitWeightKg = 1, Count = 2 } }
+            //});
 
             InitializeComponent();
             DataContext = this;
@@ -101,7 +99,13 @@ namespace trpo_pract5_WPF_Savitsin
             if (File.Exists(fileName))
             {
                 string jsonString = File.ReadAllText(fileName);
-                Packages = JsonSerializer.Deserialize<ObservableCollection<Package>>(jsonString);
+                var loaded = JsonSerializer.Deserialize<ObservableCollection<Package>>(jsonString);
+                if (loaded != null)
+                {
+                    Packages.Clear();
+                    foreach (var p in loaded)
+                        Packages.Add(p);
+                }
             }
             else
             {

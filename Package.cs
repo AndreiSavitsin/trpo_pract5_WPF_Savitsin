@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 
 namespace trpo_pract5_WPF_Savitsin
 {
-    public class Package : Attachment
+    public class Package : INotifyPropertyChanged 
     {        
-        ObservableCollection<Package> Items;
+        public ObservableCollection<Attachment> Items { get; set; } = new();
         int id = 0;
         string recipient = "Получатель";
         string address = "Адрес";
@@ -55,12 +55,23 @@ namespace trpo_pract5_WPF_Savitsin
         }
         public double PackageWeightKg
         {
-            get { return packageWeightKg; }
-            set 
-            { 
-                packageWeightKg = value;
-                OnPropertyChanged();
+            get
+            {
+                double total = 0;
+                for (int i = 0; i < Items.Count; i++)
+                    total = total + Items[i].ItemWeightKg;
+                return total;
             }
+        }
+        public void RefreshWeight()
+        {
+            OnPropertyChanged(nameof(PackageWeightKg));
+        }
+
+        public event PropertyChangedEventHandler? PropertyChanged;
+        protected void OnPropertyChanged([CallerMemberName] string? propName = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propName));
         }
     }
 }

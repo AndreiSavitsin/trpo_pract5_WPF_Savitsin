@@ -15,6 +15,7 @@
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
         <StackPanel>
@@ -23,23 +24,43 @@
             <Label Content="Адрес"/>
             <Label Content="Дата отправки"/>
             <Label Content="Вес посылки"/>
-            <Label Content="Название вложения"/>
-            <Label Content="Масса единицы, кг"/>
-            <Label Content="Количество"/>
-            <Label Content="Общая масса данного вложения"/>
         </StackPanel>
         <StackPanel Grid.Column="1">
             <TextBox Margin="5" Text="{Binding Id}"/>
             <TextBox Margin="5" Text="{Binding Recipient}"/>
             <TextBox Margin="5" Text="{Binding Address}"/>
             <TextBox Margin="5" Text="{Binding SendDate}"/>
-            <TextBox Margin="5" Text="{Binding PackageWeightKg}"/>
-            <TextBox Margin="5" Text="{Binding Name}"/>
-            <TextBox Margin="5" Text="{Binding UnitWeightKg}"/>
-            <TextBox Margin="5" Text="{Binding Count}"/>
-            <TextBox Margin="5" Text="{Binding ItemWeightKg}"/>
+            <TextBlock Margin="5" VerticalAlignment="Center" Text="{Binding PackageWeightKg}"/>
         </StackPanel>
-        <StackPanel Grid.Row="1">
+
+        <StackPanel Grid.Row="1" Grid.ColumnSpan="2">
+            <StackPanel Orientation="Horizontal">
+                <Button Margin="5" Click="AddItem_Click">Добавить вложение</Button>
+                <Button Margin="5" Click="RemoveItem_Click">Удалить вложение</Button>
+            </StackPanel>
+            <ListView x:Name="ItemsList" ItemsSource="{Binding Items}" Height="200">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Название: " VerticalAlignment="Center"/>
+                            <TextBox Width="100" Margin="2" Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}"/>
+
+                            <TextBlock Text="Вес: " VerticalAlignment="Center"/>
+                            <TextBox Width="50" Margin="2" Text="{Binding UnitWeightKg, UpdateSourceTrigger=PropertyChanged}"/>
+
+                            <TextBlock Text="Кол-во: " VerticalAlignment="Center"/>
+                            <TextBox Width="50" Margin="2" Text="{Binding Count, UpdateSourceTrigger=PropertyChanged}"/>
+
+                            <TextBlock Text="Общая масса: " VerticalAlignment="Center"/>
+                            <TextBlock Width="100" Margin="2" VerticalAlignment="Center" Text="{Binding ItemWeightKg, UpdateSourceTrigger=PropertyChanged}"/>
+                            
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackPanel>
+        
+        <StackPanel Grid.Row="2">
             <Button x:Name="SaveButton" Margin="5" Content="Сохранить" Click="SaveButton_Click"/>
             <Button x:Name="BackButton" Margin="5" Content="Назад" Click="BackButton_Click"/>
         </StackPanel>
