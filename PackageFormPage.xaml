@@ -26,7 +26,7 @@
             <Label Content="Вес посылки"/>
         </StackPanel>
         <StackPanel Grid.Column="1">
-            <TextBox Margin="5" Text="{Binding Id}"/>
+            <TextBlock Margin="5" Text="{Binding Id, UpdateSourceTrigger=PropertyChanged}"/>
             <TextBox Margin="5" Text="{Binding Recipient}"/>
             <TextBox Margin="5" Text="{Binding Address}"/>
             <TextBox Margin="5" Text="{Binding SendDate}"/>

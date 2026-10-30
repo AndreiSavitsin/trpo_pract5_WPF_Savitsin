@@ -30,22 +30,49 @@ namespace trpo_pract5_WPF_Savitsin
 
         public ListPage()
         {
-            //Packages.Add(new Package() { Id = 1, Recipient = "Иван", Address = "Екатеринбург",
-            //    SendDate = DateTime.Now, Items = { new Attachment { Name = "Книга", UnitWeightKg = 1, Count = 2 } } });
-
-            //Packages.Add(new Package() { Id = 2, Recipient = "Андрей", Address = "Москва",
-            //    SendDate = DateTime.Now, Items = { new Attachment { Name = "Телефон", UnitWeightKg = 1, Count = 1 } } });
-
-            //Packages.Add(new Package() { Id = 3, Recipient = "Дмитрий", Address = "Калининград",
-            //    SendDate = DateTime.Now, Items = { new Attachment { Name = "Наушники", UnitWeightKg = 1, Count = 1 } }
+            //Packages.Add(new Package()
+            //{
+            //    Id = Packages.Count(),
+            //    Recipient = "Иван",
+            //    Address = "Екатеринбург",
+            //    SendDate = DateTime.Now,
+            //    Items = { new Attachment { Name = "Книга", UnitWeightKg = 1, Count = 2 } }
             //});
 
-            //Packages.Add(new Package() { Id = 4, Recipient = "Данил", Address = "Санкт-Петербург",
-            //    SendDate = DateTime.Now, Items = { new Attachment { Name = "Часы", UnitWeightKg = 2, Count = 1 } }
+            //Packages.Add(new Package()
+            //{
+            //    Id = Packages.Count(),
+            //    Recipient = "Андрей",
+            //    Address = "Москва",
+            //    SendDate = DateTime.Now,
+            //    Items = { new Attachment { Name = "Телефон", UnitWeightKg = 1, Count = 1 } }
             //});
 
-            //Packages.Add(new Package() { Id = 5, Recipient = "Александр", Address = "Новосибирск",
-            //    SendDate = DateTime.Now, Items = { new Attachment { Name = "Журнал", UnitWeightKg = 1, Count = 2 } }
+            //Packages.Add(new Package()
+            //{
+            //    Id = Packages.Count(),
+            //    Recipient = "Дмитрий",
+            //    Address = "Калининград",
+            //    SendDate = DateTime.Now,
+            //    Items = { new Attachment { Name = "Наушники", UnitWeightKg = 1, Count = 1 } }
+            //});
+
+            //Packages.Add(new Package()
+            //{
+            //    Id = Packages.Count(),
+            //    Recipient = "Данил",
+            //    Address = "Санкт-Петербург",
+            //    SendDate = DateTime.Now,
+            //    Items = { new Attachment { Name = "Часы", UnitWeightKg = 2, Count = 1 } }
+            //});
+
+            //Packages.Add(new Package()
+            //{
+            //    Id = Packages.Count(),
+            //    Recipient = "Александр",
+            //    Address = "Новосибирск",
+            //    SendDate = DateTime.Now,
+            //    Items = { new Attachment { Name = "Журнал", UnitWeightKg = 1, Count = 2 } }
             //});
 
             InitializeComponent();
@@ -70,6 +97,11 @@ namespace trpo_pract5_WPF_Savitsin
             if (confirm)
             {
                 Packages.Remove(SelectedPackage);
+
+                for (int i = 0; i < Packages.Count(); i++)
+                {
+                    Packages[i].Id = i;
+                }
             }
         }
 
@@ -90,8 +122,15 @@ namespace trpo_pract5_WPF_Savitsin
         string fileName = "Packages.json";
         private void SaveButton_Click(object sender, RoutedEventArgs e)
         {
-            string jsonString = JsonSerializer.Serialize(Packages);
-            File.WriteAllText(fileName, jsonString);
+            try
+            {
+                string jsonString = JsonSerializer.Serialize(Packages);
+                File.WriteAllText(fileName, jsonString);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ошибка сохранения: " + ex.Message, "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
 
         private void LoadButton_Click(object sender, RoutedEventArgs e)
@@ -99,12 +138,19 @@ namespace trpo_pract5_WPF_Savitsin
             if (File.Exists(fileName))
             {
                 string jsonString = File.ReadAllText(fileName);
-                var loaded = JsonSerializer.Deserialize<ObservableCollection<Package>>(jsonString);
-                if (loaded != null)
+                try
                 {
-                    Packages.Clear();
-                    foreach (var p in loaded)
-                        Packages.Add(p);
+                    var loaded = JsonSerializer.Deserialize<ObservableCollection<Package>>(jsonString);
+                    if (loaded != null)
+                    {
+                        Packages.Clear();
+                        foreach (var p in loaded)
+                            Packages.Add(p);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Ошибка загрузки: " + ex.Message, "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
                 }
             }
             else

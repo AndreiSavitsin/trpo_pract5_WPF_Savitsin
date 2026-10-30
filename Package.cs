@@ -6,6 +6,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Controls.Primitives;
 
 namespace trpo_pract5_WPF_Savitsin
 {
@@ -15,8 +16,8 @@ namespace trpo_pract5_WPF_Savitsin
         int id = 0;
         string recipient = "Получатель";
         string address = "Адрес";
-        DateTime sendDate = DateTime.Now;
-        double packageWeightKg = 0;
+        DateTime sendDate = DateTime.Now;        
+        
         public int Id 
         { 
             get { return id; }

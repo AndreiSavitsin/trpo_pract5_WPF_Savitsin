@@ -34,6 +34,7 @@ namespace trpo_pract5_WPF_Savitsin
             if (package == null)
             {
                 _package = new Package();
+                _package.Id = _packageList.Count();
             }
             else
             {
@@ -48,7 +49,7 @@ namespace trpo_pract5_WPF_Savitsin
                 foreach (var i in package.Items)
                 {
                     _package.Items.Add(new Attachment
-                    {
+                    {                        
                         Name = i.Name,
                         UnitWeightKg = i.UnitWeightKg,
                         Count = i.Count
@@ -65,7 +66,7 @@ namespace trpo_pract5_WPF_Savitsin
             DataContext = _package;
         }
 
-        private void Item_PropertyChanged(object sender, PropertyChangedEventArgs e)
+        private void Item_PropertyChanged(object? sender, PropertyChangedEventArgs e)
         {
             if (e.PropertyName == "ItemWeightKg")
             {
@@ -130,7 +131,7 @@ namespace trpo_pract5_WPF_Savitsin
             Attachment a = _package.Items[ItemsList.SelectedIndex];
             a.PropertyChanged -= Item_PropertyChanged;
             _package.Items.RemoveAt(ItemsList.SelectedIndex);
-            _package.RefreshWeight();
+            _package.RefreshWeight();            
         }
     }
 }

@@ -12,8 +12,7 @@ namespace trpo_pract5_WPF_Savitsin
     {
         string name = "Название вложение";
         double unitWeightKg = 0;
-        int count = 0;
-        double itemWeightKg = 0;
+        int count = 0;        
 
         public string Name
         { 
